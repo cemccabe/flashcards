@@ -35,7 +35,7 @@ public class CardGenerator {
       cards.add(new Card(cardInput[0], cardInput[1], cardInput[2]));
     }
 
-    Collections.shuffle(cards);
+    //Collections.shuffle(cards);
   }
 
   public String getFilename() {
